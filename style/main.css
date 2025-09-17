@@ -109,12 +109,12 @@ body {
 
 /* About page start */
 .firstly {
-    width: 100%;
-    /* position: relative;
+    position: relative;
     overflow: hidden;
-    background: var(--accent-color); */
+    background: var(--accent-color);
 }
 .aboutimge {
+    width: 100%;
     background-image: url(../images/about1.png);
     height: 50vh;
     background-size: cover;
@@ -162,20 +162,16 @@ body {
 
 /* productpage start */
 
-.product{
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background: var(--accent-color);
-}
 .product .product-imge{
     background-image: url(../images/product.png);
     background-size: cover;
     height: 50vh;
 }
 .pro-firsly{
-    display: grid;
-    grid-template-columns: 1fr;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: var(--accent-color);
 }
 .product-menu{
     height: 50vh;
@@ -198,10 +194,12 @@ body {
     width: 350px;
     padding: 20px 20px 0px 0px;
 }
+.see-more{
+    margin-top: 40px;
+}
 .btn{
+    text-decoration: none;
     padding: 10px 20px;
-    /* text-align: center;
-    margin-top:20px; */
     border: 1px solid black;
 }
 
@@ -231,40 +229,33 @@ body {
 
 /* footer start */
 
-/* .footer {
+.footer {
     height: 5px;
     text-align: center;
     background: var(--neutral-color);
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
-
-.part {
-
+.part{
     width: 40%;
     display: flex;
     flex-direction: column;
     margin: 30px;
 }
-
 .part img {
     width: 40%;
 }
-
 .contact {
     display: flex;
     padding: 20px;
 }
-
 .footer p {
     margin: 0px 20px;
 }
-
 .allpages a {
     text-decoration: none;
     padding: 15px 0px;
 }
-
 .media img {
     width: 10%;
     padding: 20px 20px;
-} */
+}
